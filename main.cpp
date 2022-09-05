@@ -14,9 +14,9 @@ void p_add()
 {
     product xx;
     cout<<"enter product barcode...:";cin>>xx.pbarcode;
-    /*if(xx.pbarcode<10000000){
+    if(xx.pbarcode<10000000){
         cout<<"barcode must be 8 digit try again";cin>>xx.pbarcode;
-    }*/
+    }
 
     cout<<"enter product name...:";cin>>xx.pname;
     cout<<"enter_number_of_product..:";cin>>xx.pnum;
